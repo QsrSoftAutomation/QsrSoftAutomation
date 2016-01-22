@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="Suite" parallel="false">
+    
+    <listeners>
+       <listener class-name="common.Listener"/>
+  	</listeners> 
+
+	<parameter name="browser"  value="Chrome"/>
+	<parameter name="StoreId"  value="55"/>
+	
+	<test name="Supervisor Access">
+	  
+    	<classes>
+			<class name="sprint2.US10_PhysicalInventoryRawItemLongDescription"></class>
+			<class name="sprint2.US12_PhysicalInventoryRawItemsThatMayNotHaveOuterPackInnerPackOrLooseUnit"></class>
+			<class name="sprint2.US178_EnterAManualPurachase"></class>
+			<class name="sprint2.US179_PostAManualPurchase"></class>
+			<class name="sprint2.US186_EditManualPurchase"></class>
+			<class name="sprint2.US189_PurchasesLandingPage"></class>
+			<class name="sprint2.US345_GenerateMonthlyBillLedgerSpreadsheet"></class>
+			<class name="sprint2.US346_UpdateWRINInformationOnPostOfAnElectronicInvoice"></class>
+			<class name="sprint2.US359_PostAnElectronicInvoice"></class>
+			<class name="sprint2.US400_ListOfRawItemsOnTheManualPurchasePage"></class>
+			<class name="sprint2.US58_RawItemInnerPackNameInnerPackAmount"></class>
+			<class name="sprint2.US63_RawItemUOMLookupTable"></class>
+			<class name="sprint2.US8_PhysicalInventoryListOfRawItems"></class>
+			<class name="sprint2.US9_PhysicalInventoryRawItemWRIN"></class>
+  		</classes>
+ 
+    </test>
+  
+  </suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

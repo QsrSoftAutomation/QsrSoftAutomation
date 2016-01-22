@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <listeners>
+       <listener class-name="common.Listener"/>
+  </listeners> 
+
+<test name="Chrome All Sprints 2-15 Location 55">
+
+    <parameter name="browser"  value="Chrome"/>
+    <parameter name="StoreId"  value="55"/>
+    
+	<classes>
+			<class name="sprint2.US10_PhysicalInventoryRawItemLongDescription"></class>
+			<class name="sprint2.US12_PhysicalInventoryRawItemsThatMayNotHaveOuterPackInnerPackOrLooseUnit"></class>
+			<class name="sprint2.US178_EnterAManualPurachase"></class>
+			<class name="sprint2.US179_PostAManualPurchase"></class>
+			<class name="sprint2.US186_EditManualPurchase"></class>
+			<class name="sprint2.US189_PurchasesLandingPage"></class>
+			<class name="sprint2.US345_GenerateMonthlyBillLedgerSpreadsheet"></class>
+			<class name="sprint2.US346_UpdateWRINInformationOnPostOfAnElectronicInvoice"></class>
+			<class name="sprint2.US359_PostAnElectronicInvoice"></class>
+			<class name="sprint2.US400_ListOfRawItemsOnTheManualPurchasePage"></class>
+			<class name="sprint2.US58_RawItemInnerPackNameInnerPackAmount"></class>
+			<class name="sprint2.US63_RawItemUOMLookupTable"></class>
+			<class name="sprint2.US8_PhysicalInventoryListOfRawItems"></class>
+			<class name="sprint2.US9_PhysicalInventoryRawItemWRIN"></class>
+			<class name="sprint3.US13_PhysicalInventoryManuallyEnterInventoryCount"></class>
+			<class name="sprint3.US14_PhysicalInventorySaveInventoryCount"></class>
+			<class name="sprint3.US15_PhysicalInventoryRawItemTotalNoOfUnits"></class>
+			<class name="sprint3.US20_PhysicalInventoryDateAndTime"></class>
+			<class name="sprint3.US49_PhysicalInventoryManuallyEditInventoryCounts"></class>
+			<class name="sprint3.US79_PhysicalInventoryAuditTrail"></class>
+			<class name="sprint3.US80_POC_PhysicalInventoryAuditTrail"></class>
+			<class name="sprint3.US87_AccessingPreviouslySavedInventoryCounts"></class>
+			<class name="sprint4.US94_PrintEmptyInventoryCountingList"></class>
+			<class name="sprint4.US95_SearchForAnItemOnThePhysicalInventoryPage"></class>
+			<class name="sprint5.US279_ViewAndEditRawItemInformationPage"></class>
+			<class name="sprint5.US290_RawItemDetailPage"></class>
+			<class name="sprint5.US529_TransferLandingPage"></class>
+			<class name="sprint5.US553_InitiateAndSubmitTransfer"></class>
+			<class name="sprint5.US610_MaintainenceLandingPage"></class>
+			<class name="sprint5.US611_ListOfRawItemsOnTransferPage"></class>
+			<class name="sprint6.US405_EditRawItemInformationAndManualPurchaseRawItems"></class>
+			<class name="sprint6.US457_GroupWRINsByTemperatureZoneOnThePhysicalInventoryPageAndPrintableInventorySheet"></class>
+			<class name="sprint6.US458_GroupWRINsByAssemblyItemOnThePhysicalInventoryPageAndPrintableInventorySheet"></class>
+			<class name="sprint6.US459_GroupWRINsByWRINPrefixOnThePhysicalInventoryPageAndPrintableInventorySheet"></class>
+			<class name="sprint6.US460_SearchOnThePhysicalInventoryPageToShowSearchResultsForTheEntireListOfWRINs"></class>
+			<class name="sprint6.US461_ShowProductCategoryDollerAmountsOnAnElectronicInvoiceAndOnManualPurchaseDetailPage"></class>
+			<class name="sprint6.US477_Part2ManualPurchase"></class>
+			<class name="sprint6.US478_Part2BillLedger"></class>
+			<class name="sprint6.US579_UpdateCasePriceForManualPurchaseRawItemsOnTheManualPurchasePage"></class>
+			<class name="sprint6.US672_AbilityToCreateManualPurchaseVendors"></class>
+			<class name="sprint7.US367_EnterRawWaste"></class>
+			<class name="sprint7.US374_EnterRawPromo"></class>
+			<class name="sprint7.US425_WastePromoLandingPage"></class>
+			<class name="sprint7.US602_ViewMenuItemInformation"></class>
+			<class name="sprint7.US671_MenuItemMaintenanceDropdownOptions"></class>
+			<class name="sprint7.US758_ManualPurchasePart3"></class>
+			<class name="sprint7.US759_StoreLedgerPart3"></class>
+			<class name="sprint7.US764_AbilityToInitiateAndSubmitTransferForOffice"></class>
+			<class name="sprint8.US11_PhysicalInventoryDistinguishRawItemUOMNameForOuterPackInnerPackAndLooseUnits"></class>
+			<class name="sprint8.US539_CreateCustomRawItemLists"></class>
+			<class name="sprint8.US603_MenuItemActivity"></class>
+			<class name="sprint8.US733_SelectValidStoreNumbersFromTransferPage"></class>
+			<class name="sprint8.US740_ViewYieldRangeInfoRawItemInformationPage"></class>
+			<class name="sprint8.US811_OnPostPhysicalInventoryQuantitiesSentToRawItemActivityPage"></class>
+			<class name="sprint8.US825_ManualPurchaseVendorsRestrictAbilityToAddOrEditDuplicateVendor"></class>
+			<class name="sprint8.US826_ManualPurchaseVendorsAbilityToDeleteManualPurchaseVendor"></class>
+			<class name="sprint8.US827_ValidationWhenEnteringADuplicateManualPurchaseInvoiceNumber"></class>
+			<class name="sprint8.US898_MenuItemInformationRefineThePageAndAttributeFields"></class>
+			<class name="sprint8.US899_ManualPurchaseAuditCapabilities"></class>
+			<class name="sprint9.US1044_RefineElectronicInvoiceVarianceSettingsValidations"></class>
+			<class name="sprint9.US1047_MenuItemActivityPage"></class>
+			<class name="sprint9.US1048_RawWastePromoLandingPage"></class>
+			<class name="sprint9.US777_ViewCalculatedYield"></class>
+			<class name="sprint9.US916_ViewAndPrintStatVariance"></class>
+			<class name="sprint9.US976_SwitchAndTakeInventoryOnCustomListForPhysicalInventoryDetailPage"></class>
+			<class name="sprint10.US1046_AbilityToRestoreDeletedInvoicesManualVendorsAndCustomLists"></class>
+			<class name="sprint10.US1055_AbilityToSetTheTransferAlertLimitAmount"></class>
+			<class name="sprint10.US1110_AboveStoreUserToChooseTheRestaurantsThatAreValidRestaurantsToTransferToAndFrom"></class>
+			<class name="sprint10.US1123_FoodOverBaseLandingPageFunctionality"></class>
+			<class name="sprint10.US1242_SelectValidStoreNumbersFromTransferPage"></class>
+			<class name="sprint11.US1111_AbilityToViewAndEditFoodOverBaseTargetsManually"></class>
+			<class name="sprint11.US1204_Level6Access"></class>
+			<class name="sprint11.US1270_AbilityToEnterDecimalLooseUnitQuantitiesOnRawWasteAndPromo"></class>
+			<class name="sprint11.US1297_RawItemInformationOnlyDisplayCalculatedYieldAndYieldRangeForAYieldItem"></class>
+			<class name="sprint11.US964_SelectValidStoreNumbersFromTheTransferPageDetailsValidation"></class>
+			<class name="sprint12.US1125_DisplayDifferenceBetweenFoodOverBaseTargetsAndFoodOverBaseActuals"></class>
+			<class name="sprint12.US1145_DisplayRawWastePercentageAndDoller"></class>
+			<class name="sprint12.US1152_DisplayProductNetSalesDollar"></class>
+			<class name="sprint12.US1180_ShowWhenACreditOnAnElectronicInvoiceContainsADollarAmountThatMatchesToAnAdjustment"></class>
+			<class name="sprint12.US1202_Level4Access"></class>
+			<class name="sprint12.US1203_Level5Access"></class>
+			<class name="sprint12.US1388_ViewAndPostAnAdjustment"></class>
+			<class name="sprint12.US290_RawItemActivity"></class>
+			<class name="sprint12.US982_BeforePhysicalInventoryCanBeFinalizedViewPendingPurchasesWarning"></class>
+			<class name="sprint13.US1356_AdditionalSMARTAttributesMenuItemsAvailableOnCompletedWastePage"></class>
+			<class name="sprint13.US924_DisplayCondimentsPercentageAndDoller"></class>
+			<class name="sprint14.US1200_Level2Access"></class>
+			<class name="sprint15.US1205_SupervisorAccess"></class>
+			<class name="sprint15.US1206_SupervisorWithRoleAssignmentAccess"></class>
+			<class name="sprint15.US1207_OrgAdminAccess"></class>
+			<class name="sprint15.US1208_OperatorAccess"></class>			
+  	</classes>
+
+</test>
+
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

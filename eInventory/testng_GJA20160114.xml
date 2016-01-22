@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="common.Listener"/>
+	</listeners> 
+	<test name="Targeted Browser">
+		<!-- parameter name="browser"  value="Chrome"/ -->
+		<parameter name="browser"  value="Chrome"/>
+		<parameter name="StoreId"  value="762"/>
+
+		<classes>
+			<class name="sprint6.US405_EditRawItemInformationAndManualPurchaseRawItems">
+				<methods>
+        				<include name="sprint6_US405_TC1251"/>
+     				</methods>
+  			</class>
+  		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

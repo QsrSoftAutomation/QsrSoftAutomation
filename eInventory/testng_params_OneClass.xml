@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="Suite" parallel="false">
+    
+    <listeners>
+       <listener class-name="common.Listener"/>
+  	</listeners> 
+
+	<parameter name="browser"  value="Chrome"/>
+	<parameter name="StoreId"  value="55"/>
+	
+	<test name="Enter A Manual Purchase">
+
+
+    	<classes>
+
+			<class name="sprint2.US178_EnterAManualPurachase">
+				<methods>
+					<include name="Sprint2_US178_TC393"/>
+					<include name="Sprint2_US178_TC397"/>
+					<include name="Sprint2_US178_TC398"/>
+					<include name="Sprint2_US178_TC399"/>
+					<include name="Sprint2_US178_TC400"/>
+					<include name="Sprint2_US178_TC401"/>
+					<include name="Sprint2_US178_TC402"/>
+					<include name="Sprint2_US178_TC403"/>
+				</methods>
+ 			</class>
+
+  		</classes>
+ 
+    </test>
+
+  </suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

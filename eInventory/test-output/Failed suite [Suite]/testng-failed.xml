@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="StoreId" value="55"/>
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="common.Listener"/>
+  </listeners>
+  <test name="Firefox Browser">
+    <parameter name="StoreId" value="55"/>
+    <parameter name="browser" value="Chrome"/>
+  </test> <!-- Firefox Browser -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
